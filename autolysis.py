@@ -1,3 +1,5 @@
+import subprocess
+subprocess.run(["pip", "install", "python-decouple"]) 
 import os
 import sys
 import pandas as pd
