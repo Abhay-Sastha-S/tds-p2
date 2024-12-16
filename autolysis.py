@@ -9,7 +9,7 @@
     "packages": {
       "pandas": "latest",
       "numpy": "latest",
-      "matplotlib.pyplot": "latest",
+      "matplotlib": "latest",
       "seaborn": "latest",
       "requests": "latest",
       "chardet": "latest",
