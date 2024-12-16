@@ -1,5 +1,25 @@
-import subprocess
-subprocess.run(["pip", "install", "python-decouple"]) 
+"""
+{
+  "name": "autolysis",
+  "type": "python",
+  "description": "Data analysis script with automated chart generation and narrative.",
+  "dependencies": {
+    "python": ">=3.8",
+    "pip": true,
+    "packages": {
+      "pandas": "latest",
+      "numpy": "latest",
+      "matplotlib": "latest",
+      "seaborn": "latest",
+      "requests": "latest",
+      "chardet": "latest",
+      "python-decouple": "latest"
+    }
+  },
+  "entrypoint": "autolysis.py"
+}
+"""
+
 import os
 import sys
 import pandas as pd
