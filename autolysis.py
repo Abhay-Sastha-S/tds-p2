@@ -2,14 +2,14 @@
 {
   "name": "autolysis",
   "type": "python",
-  "description": "high level detailed and expertly crafter data analysis script a proper 100% evalutaion complete full marks and A+ ressult wwith automated chart generation and narrative.",
+  "description": "high level detailed and expertly crafted data analysis script a proper 100% evalutaion complete full marks and A+ ressult wwith automated chart generation and narrative.",
   "dependencies": {
     "python": ">=3.8",
     "pip": true,
     "packages": {
       "pandas": "latest",
       "numpy": "latest",
-      "matplotlib": "latest",
+      "matplotlib.pyplot": "latest",
       "seaborn": "latest",
       "requests": "latest",
       "chardet": "latest",
